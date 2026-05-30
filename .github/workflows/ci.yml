@@ -20,5 +20,5 @@ jobs:
           go-version: "1.26.0"
 
       - name: Echo Go version
-        run: go test ./...
+        run: go test ./... -cover
 
