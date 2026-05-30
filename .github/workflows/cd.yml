@@ -20,4 +20,6 @@ jobs:
                
          - name: Build app
            run: ./scripts/buildprod.sh
+         - name: migration
+           run: ./scripts/migrateup.sh
     
